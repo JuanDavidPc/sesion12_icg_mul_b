@@ -2,7 +2,7 @@
 <script>
 	function sumaTral(a,b){
           
-          var s=[];
+          var c=[];
           for(i=0; i <a.length;i+=2){
           c[i]=(a[i]+b[0])
           c[i+1]=(a[i+1]+b[1])
@@ -25,8 +25,8 @@
 	}
 
     
-		var c = document.getElementById('tablero')
-		var ctx = c.getContext('2d')
+		var canvas = document.getElementById('tablero')
+		var ctx = canvas.getContext('2d')
 
 	    
 
@@ -39,6 +39,6 @@
               
                 polygon(letra_e,'magenta','magenta' );
                 
-                polygon(letra_e,'green','green' );
+                polygon(letra_e_traslado,'green','green' );
 		
 </script>
